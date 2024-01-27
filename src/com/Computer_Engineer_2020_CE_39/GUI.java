@@ -19,7 +19,6 @@ public class GUI extends JFrame {
         l1.setFont(new Font("Arial", Font.BOLD, 35));
         l1.setForeground(new Color(250, 2, 0));
 
-
         p1.add(l1,BorderLayout.CENTER );
 
         // create button
@@ -44,8 +43,6 @@ public class GUI extends JFrame {
         button8.setBounds(890, 335, 200, 85);
         button9.setBounds(200, 535, 200, 85);
         button10.setBounds(430, 535, 200, 85);
-
-
 
         button1.addActionListener(e -> new button1());
         button2.addActionListener(e -> new button2());
